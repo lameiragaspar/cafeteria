@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-do-topo:'Oswald', sans-serif;
+    --font-do-banner: 'Fraunces', serif;
+    --font-padrao:'Lato', sans-serif;
+    --cor1:#604829;
+    --cor2:#C4955C;
+    --cor3:#caac84;
+}
+.topo{
+    width: 100%;
+    background-color:var(--cor1);
+    position: fixed;
+    font-family:var(--font-do-topo);
+}
+.topo .tam-max{
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+.tam-max img{
+    width: 50px;
+    margin-left: 27px
+}
+
+.tam-max .links{
+    display: inline;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    margin-right: 12px;
+}
+.links a{
+    color:var(--cor2);
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 0px 7px black inset;
+    padding: 0 4px;
+    margin-left: 10px;
+}
+.banner{
+    background: aqua url(../img/parallax-imagem1.png) no-repeat center fixed;
+    background-size:cover;
+    width: 100%;
+}
+.banner h1{
+    color: white;
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 300px 0;
+    font-size: 62px;
+    font-weight: 300;
+    font-family:var(--font-do-banner);
+}
+div.texto{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.texto h2{
+    color: var(--cor3);
+    font-family: var(--font-do-topo);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.texto p{
+    font-family: var(--font-padrao);
+    text-align: center;
+    line-height: 32px;
+    font-size: 13px;
+}
+.parallax{
+    padding: 130px 0;
+    text-align: center;
+    width: 100%;
+}
+.parallax h3{
+    color: white;
+    background-color: var(--cor1);
+    display: inline;
+    padding: 2px 7px;
+    font-family: var(--font-do-banner);
+    font-style: italic;
+    font-weight: 400;
+}
+.parallax-2{
+    background: aqua url(../img/parallax-imagem2.jpg) no-repeat center fixed;
+    background-size:cover;  
+}
+.parallax-3{
+    background: aqua url(../img/parallax-imagem3.jpg) no-repeat center fixed;
+    background-size:cover;
+}
+/*#CONTATOS*/
+#contatos, #horarios{
+    text-align: center;
+}
+.parallax-4{
+    background: #4242b1 url(../img/parallax-imagem4.png) no-repeat top center fixed;
+    background-size: cover;
+    height: 550px;
+    padding: 50px; 
+}
+.parallax-4 h2, .parallax-5 h2{
+    color: white;
+    background-color: var(--cor1);
+    max-width: 300px;
+    padding: 2px 7px;
+    font-family: var(--font-do-topo);
+    font-size: 18px;
+    margin: 0 auto;
+}
+.parallax-4 iframe{
+    width: 100%;
+    max-width: 700px;
+    height: 250px;
+    margin: 30px 0;
+    border-radius: 10px;
+    opacity: 85%;
+}
+.parallax-4 .box-contato{
+    background-color: var(--cor1);
+    font-family: var(--font-do-topo);
+    color: white;
+    font-size: 12px;
+    padding: 4px 0;
+    line-height: 24px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/*#HORÁRIOS DE FUNCIONAMENTO*/
+#horarios{
+    color: white;
+}
+.parallax-5{
+    background: #4242b1 url(../img/cafeteria.jpg) no-repeat top center fixed ;
+    background-size: cover;
+    height: 550px;
+    padding: 50px;
+    font-family: var(--font-do-topo);
+}
+.parallax-5 h2{
+    background-color: transparent;
+    margin: 30px auto 50px;
+    font-weight: 400;
+}
+.lista li{
+    margin: 50px auto;
+    padding: 0 110px;
+    max-width: 612px;
+    position: relative;
+    list-style: none;
+}
+li .dia-semana{
+    position: absolute;
+    left: 19px;
+    bottom: -4px;
+    font-weight: bold;
+}
+li .fechado{
+    color: var(--cor2);
+}
+li .fechado, .hora{
+    position: absolute;
+    right: 11px;
+    bottom: -3px;
+}
+li .hora{
+    color: #ffffffd0;
+}
+.footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    font-family: var(--font-padrao);
+    
+}
+
+.footer-max{
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer img{
+    position: absolute;
+    right: 0px;
+    top: -55px;
+    width: 50px;
+}
+.footer p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.footer p span{
+    color: var(--cor2);
+}
